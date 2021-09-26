@@ -62,7 +62,7 @@ li:nth-child(2){
 }
 .fondo{
 	height: 80vh;
-	background: url("Imágenes/slider.png")fixed;
+	background: url("Imágenes/SLIDER.png")fixed;
 	color: #FFFFFF;
 	background-size: cover;
 	text-align: center;
@@ -102,7 +102,7 @@ li:nth-child(2){
 	font-size: 8vh;
 	color: #FFFFFF;
 	padding: 15vh 0 15vh 0;
-	background: url("Imágenes/banner_sillon.png");
+	background: url("Imágenes/BANNER_Sillon.png");
 	background-size: cover;
 	text-align: center;
 }
