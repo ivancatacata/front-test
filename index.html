@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="Imágenes/logo.png">
+	<link rel="stylesheet" href="estilos.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<title>Prueba front</title>
+	<script src="https://kit.fontawesome.com/b450341f2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid" id="inicio">
+		<div class="row header">
+			<div class="col-md-2">
+				<img class="logo" src="Imágenes/logo.png" alt="logo">
+			</div>
+			<div class="col-md-10">
+				<ul class="light">
+					<li><a class="a size4" href="#inicio">INICIO</a></li>
+					<li><a class="a size4" href="#productos">PRODUCTOS</a></li>
+					<li><a class="a size4" href="#contacto">CONTACTO</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row fondo">
+			<div class="col-md-12 texto">
+				<h1 class="light size1">MARCA TU</h1>
+				<h1 class="light size2"><b>ESTILO PROPIO</b></h1> 
+			</div>	
+		</div>
+		<div class="row nosotros">
+			<div class="col-md-6">
+				<p align="center"><img src="Imágenes/icono_sillon.png" alt="icono sillon" class="img"></p>
+			</div>
+			<div class="col-md-6">
+				<h1 class="garamond size3">Nosotros</h1>
+				<p class="normal size4 margin">Nos dedicamos al diseño y restauración de muebles a pedido y a 
+				tu gusto, para que sean únicos, irrepetibles y funcionales.
+				Nuestros diseños nacen de la imaginación y la pasión que 
+				sentimos al crearlos. Buscamos generar piezas únicas en tu 
+				espacio, priorizando sobre todo el confort.
+				Trabajamos muebles con espejos, con pintura glitter y con resina 
+				epóxica.</p>
+			</div>
+		</div>
+		<div class="row descripcion">
+			<div class="col-md-12 normal">
+				NOVEDOSOS Y BRILLANTES
+			</div>
+		</div>
+		<div class="row productos" id="productos">
+			<div class="row">
+				<div class="col-md-4">
+				<div class="card">
+					<img src="Imágenes/IMG_Cómoda.png" alt="producto" class="img-fluid">
+					<div class="content">
+						<h1 class="garamond size1">Cómoda</h1>
+						<h3 class="light" style="color:grey">Dormitorio</h3>
+					</div>		
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="Imágenes/IMG_Sillon.png" alt="producto" class="img-fluid">
+					<div class="content">
+						<h1 class="garamond size1">Silla</h1>
+						<h3 class="light" style="color:grey">Cocina</h3>
+					</div>		
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="Imágenes/IMG_MesaRatona.png" alt="producto" class="img-fluid">
+					<div class="content">
+						<h1 class="garamond size1">Mesa ratona</h1>
+						<h3 class="light" style="color:grey">Living/Comedor</h3>
+					</div>		
+				</div>		
+			</div>
+			</div>
+			<div class="row boton light size4">
+				<div class="col-md-12" id="verMas">
+					<button id="ver">VER MÁS</button>
+				</div>
+			</div>
+		</div>
+		<div class="row formulario" id="contacto">
+			<div class="col-md-5">
+				<p class="garamond size5">Formulario</p>
+
+					<form id="formulario">
+						<div class="row light">
+
+							<div class="col-md-6 size4">
+								<label for="nombre">Nombre</label>
+								<input type="text" name="nombre" id="nombre" class="form">
+							</div>
+
+							<div class="col-md-6 size4">
+								<label for="provincia">Provincia</label>
+								<input type="text" id="provincia" name="provincia" class="form">
+							</div>
+						</div>
+
+						<div class="row light top">
+
+							<div class="col-md-6 size4">
+								<label for="email">E-mail</label>
+								<input type="email" id="email" name="email" class="form">
+							</div>
+
+							<div class="col-md-6 size4">
+								<label for="hora">Horario de contacto</label>
+								<input type="time" id="hora" name="hora" class="form">
+							</div>
+						</div>
+
+						<div class="row light top">
+
+							<div class="col-md-6 size4">
+								<label for="telefono">Teléfono</label>
+								<input type="tel" id="telefono" name="telefono" class="form">
+							</div>
+
+							<div class="col-md-6 size4">
+								<label for="consulta">Consulta</label>
+								<input type="text" id="consulta" name="consulta" class="form">
+							</div>
+						</div>
+
+						<div class="row light top">
+							<div class="col-md-12">
+								<button type="submit" class="enviar size4">Enviar</button>
+								
+							</div>
+						</div>
+					</form>
+					<div class="row">
+						<div class="col-md-12" id="respuesta">
+							
+						</div>
+					</div>
+					
+				</div>			
+			<div class="col-md-1"></div>
+			<div class="col-md-6">
+				<div class="row size5">
+					<div class="col-md-7"><p class="garamond">Contacto</p>
+						<p class=" size4 light"><i class="fas fa-phone-alt i"></i>0800-000-0000</p>
+						<p class=" size4 light"><i class="fab fa-whatsapp i"></i>11-00000000</p>
+						<p class=" size4 light"><i class="fas fa-map-marker-alt i"></i>Lorem ipsum 555</p>
+					</div>
+					<div class="col-md-5">
+					<p class="garamond">Horarios</p>
+					<p class="size4 light">Lunes a Viernes <br>
+					10:00 - 19:00 hs.</p>
+
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer">
+			<div class="col-md-12 normal">
+				Todos los derechos reservados
+			</div>
+		</div>
+	</div>
+	<script src="codigo.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+@font-face{
+	font-family: Barlow;
+	src: url('Tipografías/Barlow/BARLOW-REGULAR.TTF') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face{
+	font-family: Barlow;
+	src: url('Tipografías/Barlow/BARLOW-EXTRALIGHT.TTF') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face{
+	font-family: garamond;
+	src: url('Tipografías/Garamond/GARA.TTF') format("truetype");
+	font-size: normal;
+	font-weight: normal;
+}
+.header{
+	padding: 4vh 10vh 4vh 10vh;
+	background: #000000;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+.logo{
+	display: inline-block;
+}
+ul{
+	display: inline-block;
+	float: right;
+	text-align: center;
+}
+li{
+	display: inline-block;
+}
+li:nth-child(2){
+	padding: 0 8vh 0 8vh;
+}
+.a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.a:hover{
+	color: #75DED7;
+}
+.light{
+	font-family: Barlow;
+	font-weight: 300;
+}
+.normal{
+	font-family: Barlow;
+	font-weight: 400;
+}
+.garamond{
+	font-family: garamond;
+}
+.margin{
+	margin-right: 5vh;
+}
+.fondo{
+	height: 80vh;
+	background: url("Imágenes/slider.png")fixed;
+	color: #FFFFFF;
+	background-size: cover;
+	text-align: center;
+}
+.texto{
+	padding-top: 35vh;
+}
+.size1{
+	font-size: 6vh;
+}
+.size2{
+	font-size: 10vh;
+}
+.size3{
+	font-size: 8vh;
+}
+.size4{
+	font-size: 3vh;
+}
+.size5{
+	font-size: 5vh;
+}
+.img{
+	width: 40%;
+}
+.i{
+	color:#75DED7;
+	margin-right: 15px;
+}
+.nosotros{
+	background: #FFFFFF;
+	color: #000000;
+	font-size: 3vh;
+	padding: 15vh 0 15vh 0;
+}
+.descripcion{
+	font-size: 8vh;
+	color: #FFFFFF;
+	padding: 15vh 0 15vh 0;
+	background: url("Imágenes/banner_sillon.png");
+	background-size: cover;
+	text-align: center;
+}
+.productos{
+	padding: 15vh 10vh 15vh 10vh;
+	background: #FFFFFF;
+	text-align: center;
+}
+.card{
+	width: 92%;
+	text-align: center;
+	padding-left: 4vh; 
+	border: none!important;
+}
+.content{
+	padding-top: 2vh;
+}
+.boton{
+	padding-top: 8vh;
+}
+.boton button{
+	color: #FFFFFF;
+	background: #75DED7;
+	border: none;
+	padding: 2vh 6vh 2vh 6vh;
+}
+.formulario{
+	background: #000000;
+	color: #FFFFFF;
+	padding: 5vh 0 5vh 10vh;
+}
+.form{
+	background: #000000;
+	color: #FFFFFF;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-color: #75DED7;
+	border-width: 1px;
+	width: 100%;
+}
+.form:focus{
+	outline: none;
+}
+.top{
+	padding-top: 1vh;
+}
+.enviar{
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	float: right;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #75DED7;
+	padding: 1vh 2vh 1vh 2vh;
+	border: none;
+}
+.footer{
+	font-size: 3vh;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5vh 0 5vh 0;
+	background: #75DED7;
+}
