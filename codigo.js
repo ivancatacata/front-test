@@ -11,6 +11,12 @@ ver.addEventListener('click', function(e){
 formulario.addEventListener('submit', function(e){
 	e.preventDefault();
 	var datos = new FormData(formulario);
+	datos ={"nombre": datos.get('nombre'),
+	 "provincia":datos.get('provincia'),
+	  "email":datos.get('email'),
+	   "horario de contacto": datos.get('hora'),
+	    "Teléfono" : datos.get('telefono'),
+	     "consulta":datos.get('consulta')}
 	fetch('https://sistemacaliva.com/api/front-test',{
 		// mode: 'no-cors',
 		method : "POST",
